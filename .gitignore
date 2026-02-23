@@ -1,0 +1,8 @@
+.env
+.venv/
+venv/
+__pycache__/
+
+# Ignore large data directories
+data/raw/
+data/processed/

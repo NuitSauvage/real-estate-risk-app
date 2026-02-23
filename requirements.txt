@@ -1,0 +1,39 @@
+# --- Core App & UI ---
+streamlit==1.37.1
+plotly==5.23.0
+pivottablejs
+
+# --- Data Processing ---
+pandas==2.2.2
+numpy==2.0.1
+pyarrow==17.0.0
+python-dotenv==1.0.1
+
+# --- Quality & Testing ---
+pytest==8.3.2
+ruff==0.6.2
+mypy==1.11.1
+
+# --- Machine Learning & Stats ---
+scikit-learn
+xgboost
+statsmodels
+joblib
+
+# --- Geospatial Analysis ---
+# Note: These can sometimes be tricky in slim Docker images
+geopandas
+geoplot
+shapely
+
+# --- Database & API ---
+sqlalchemy==2.0.32
+psycopg2-binary
+pydantic==2.8.2
+requests==2.32.3
+tenacity==8.5.0
+# tenacity>=8.1.0,<9
+
+
+# --- Dev Tools (Optional) ---
+pytest==8.3.2
