@@ -58,4 +58,4 @@ docker build -t real-estate-app .
 docker run -p 8501:8501 real-estate-app
 
 Dashboard: Open your browser at http://localhost:8501.
-Default View: The dashboard is pre-configured for Andover with automatic USD to EUR conversion.[README.md](https://github.com/user-attachments/files/25473915/README.md)
+Default View: The dashboard is pre-configured for Andover with automatic USD to EUR conversion.
